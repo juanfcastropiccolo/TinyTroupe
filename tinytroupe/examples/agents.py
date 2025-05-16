@@ -7,6 +7,27 @@ from tinytroupe.agent import TinyPerson
 from .loaders import load_example_agent_specification
 
 ###################################
+# Custom Agents: Tiny Audit Firm
+###################################
+
+def create_michael_the_assistant():
+  return TinyPerson.load_specification(load_example_agent_specification("Michael_the_assistant"))
+
+def create_sonya_the_assistant():
+  return TinyPerson.load_specification(load_example_agent_specification("Sonya_the_assistant"))
+
+def create_rhonda_the_senior():
+  return TinyPerson.load_specification(load_example_agent_specification("Rhonda_the_senior"))
+
+def create_tyler_the_supervisor():
+  return TinyPerson.load_specification(load_example_agent_specification("Tyler_the_supervisor"))
+    
+def create_thomas_the_manager():
+  return TinyPerson.load_specification(load_example_agent_specification("Thomas_the_manager"))
+
+
+
+###################################
 # Example 1: Oscar, the architect
 ###################################
 
